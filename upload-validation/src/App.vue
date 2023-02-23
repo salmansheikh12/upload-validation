@@ -15,8 +15,8 @@
 
   <NavBar />
 
+  <RouterView />
 
-  <RouterView>
   
 </template>
 

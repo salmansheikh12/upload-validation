@@ -1,24 +1,69 @@
-<script setup lang="ts">
-// import TheWelcome from "../components/TheWelcome.vue";
-
-
-</script>
 
 
 <template>
 
+    <section>
 
-    <button type="button" class="btn btn-success">UPLOAD</button>
+
+
+        <div class="container">
+    
+            <h3 class="text-center">Upload Images</h3>
+            <hr id="sep">
+
+            <p class="text-center fontL">
+                Upload your Moon image here!
+
+            </p>
+
+                    
+            <button type="button" class="btn btn-success" ><strong>UPLOAD</strong></button>
+
+            <br>
+            <br>
+       
+            <button type="button" class="btn btn-success" ><strong>UPLOAD</strong></button>
+
+
+        </div>
+
+
+
+    </section>
+
+
+    
 
 
     
 </template>
 
+   
 
 
+<style>
 
-<script>
+    .container {
+
+        padding-top: 20px;
+        padding-bottom: 120px;
+
+    }
+
+    .text-center{
+
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+
+    }
+
+    .fontL{
+        font-size: large;
+
+    }
+
+    
 
 
-
-</script>
+</style>

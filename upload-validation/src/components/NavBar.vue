@@ -20,12 +20,14 @@
         </li>
         
         <li class="nav-item">
+          <a class="nav-link"><RouterLink to="/upload">Upload Images</RouterLink></a>
+        </li>
+        
+        <li class="nav-item">
           <a class="nav-link"><RouterLink to="/about">About</RouterLink></a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link"><RouterLink to="/upload">Upload Images</RouterLink></a>
-        </li>
+
 
       </ul>
 
