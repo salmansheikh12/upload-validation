@@ -1,4 +1,33 @@
 
+<script>
+
+export default {
+    name: 'UploadPage',
+    data (){
+        return {
+            selectedFile: null
+        }
+    },
+    mehtods: {
+        onFileSelected(event) {
+            This.selectedFile = event.target.files[0]
+
+        },
+        onUpload(){
+
+
+        }
+    }
+
+
+
+
+
+}
+
+
+
+</script>   
 
 <template>
 
@@ -16,13 +45,15 @@
 
             </p>
 
-                    
-            <button type="button" class="btn btn-success" ><strong>UPLOAD</strong></button>
-
+            <input type="file" @change="onFileSelected">   
             <br>
+            <br>
+            <button @click="onUpload" class="btn btn-success fontM" ><strong>UPLOAD</strong></button>
+
+            <!-- <br>
             <br>
        
-            <button type="button" class="btn btn-success" ><strong>UPLOAD</strong></button>
+            <button type="button" class="btn btn-success" ><strong>Add More files</strong></button> -->
 
 
         </div>
@@ -38,10 +69,10 @@
     
 </template>
 
-   
 
 
 <style>
+
 
     .container {
 
@@ -60,6 +91,12 @@
 
     .fontL{
         font-size: large;
+
+    }
+
+    .fontM{
+        font-size: small;
+
 
     }
 
