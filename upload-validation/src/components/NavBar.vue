@@ -49,10 +49,8 @@
     padding-right: 3%;
     background-color: transparent;
 
-    position: relative;
-    z-index: 7;
 
-
+    z-index: 1;
     font-size: 14px;
 
 
