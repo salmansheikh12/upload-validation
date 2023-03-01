@@ -2,7 +2,7 @@ const db = require('../database');
 
 module.exports = {
     storeImage:function(input, callback){
-        var sql = 'select * from LunarImage where img = ?';
+        const sql = 'select * from LunarImage where img = ?';
         db.query(sql, input.img, function(err, data, fields){
             if(err){
                 throw err;
