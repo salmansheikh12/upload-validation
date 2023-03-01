@@ -1,0 +1,5 @@
+cd Desktop\Senior Design\upload-validation\store-lunar-images
+
+
+- to run nodemon:   // use nodemon so we don't have to restart server every time whenever a change is made
+nodemon .\'filename'    

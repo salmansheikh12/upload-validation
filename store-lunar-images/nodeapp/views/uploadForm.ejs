@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+</head>
+<body>
+    <form action = "/storeImage" method = "post" enctype="multipart/form-data">
+        <label>Store Image</label><br>
+        <!-- <p><%=(typeof alertMsg != 'undefined') ? alertMsg: ''%></p> -->
+        <input type = "file" name = "image" multiple>
+        <button type = "submit">Upload</button>
+    </form>
+</body>
+</html>
