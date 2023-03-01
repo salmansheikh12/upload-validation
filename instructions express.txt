@@ -3,5 +3,5 @@
 - npx express --view=ejs nodeapp
 - cd to nodeapp directory
 - 'npm install' in the nodeapp directory
-- npm start
+- npm start (cd Desktop\Senior Design\upload-validation\store-lunar-images\nodeapp)
 - localhost:3000

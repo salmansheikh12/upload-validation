@@ -9,7 +9,7 @@
 <body>
     <form action = "/storeImage" method = "post" enctype="multipart/form-data">
         <label>Store Image</label><br>
-        <!-- <p><%=(typeof alertMsg != 'undefined') ? alertMsg: ''%></p> -->
+        <p><%=(typeof alertMsg != 'undefined') ? alertMsg: ''%></p>
         <input type = "file" name = "image" multiple>
         <button type = "submit">Upload</button>
     </form>
