@@ -1,5 +1,6 @@
 
-<script>
+<script> 
+
 
 export default {
     name: 'UploadPage',
@@ -8,16 +9,24 @@ export default {
             selectedFile: null
         }
     },
-    mehtods: {
+    methods: {
+        
+
         onFileSelected(event) {
+       
             This.selectedFile = event.target.files[0]
+
 
         },
         onUpload(){
 
 
         }
+
+
     }
+
+
 
 
 
@@ -45,9 +54,13 @@ export default {
 
             </p>
 
-            <input type="file" @change="onFileSelected">   
-            <br>
-            <br>
+            <input type="file" id="image_input" @change="onFileSelected" accept="image/png, image/jpeg, image/jpg, image/pdf">   
+            <!-- <br>
+            <br> -->
+            <div id="display_image">
+
+
+            </div>
             <button @click="onUpload" class="btn btn-success fontM" ><strong>UPLOAD</strong></button>
 
             <!-- <br>
@@ -74,6 +87,19 @@ export default {
 <style>
 
 
+    #display_image{
+        width: 400px;
+        height: 225px;
+        border: 1px dotted white;
+        background-position: center;
+        background-size: cover;
+        margin: 10%;
+    
+
+
+
+
+    }
     .container {
 
         padding-top: 20px;
